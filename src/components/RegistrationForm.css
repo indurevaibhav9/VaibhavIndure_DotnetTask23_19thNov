@@ -1,0 +1,72 @@
+/* Center the card */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f3f4f6;
+}
+
+/* Card design */
+.register-card {
+  background: white;
+  width: 380px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  margin-bottom: 22px;
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Labels */
+.register-card label {
+  margin-top: 12px;
+  font-weight: 600;
+  color: #444;
+}
+
+/* Inputs */
+.register-card input {
+  margin-top: 6px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  font-size: 15px;
+}
+
+.register-card input:focus {
+  border-color: #4f46e5;
+}
+
+/* Button */
+.register-btn {
+  margin-top: 25px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.register-btn:hover {
+  background: #4338ca;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 4px;
+}
